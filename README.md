@@ -1,4 +1,4 @@
-Button
+Motor
 ======
 
 * Author: FABLAB Bahrain (<https://fablab.bh/>)
@@ -9,7 +9,7 @@ Motor is a small library for Arduino to handle motor control using L298 HBridge.
 
 Motivation
 ----------
-Ahh buttons. Ahh debouncing! Sometimes you really wish you could ignore all the mechanics of debouncing, reading inputs, monitoring state, and just say... `if (button.pressed())` and know that it'll only run once each time you press a button.
+Ahh Motors. Ahh Control! Sometimes you really wish you could ignore all the hassel of motor control, moving forward, moving backward, in case you wired the thing wrongly and just say... `if (button.pressed())` and know that it'll only run once each time you press a button.
 
 Or how about `if (button.released())`, or `button.toggled()`. It is such a simple concept, but in practice you need to set up timers, monitor input puts, set pullups, etc etc. On anything more than the most simple example, that can become quite a headache.
 
