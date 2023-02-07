@@ -110,6 +110,7 @@ unsigned int Motor::command(Stream &serial) {
 			x.trim();
 			if(x == "EXIT" || x == "Exit" || x == "exit") {
 				serial.println("Exiting Command Function");
+				stop();
 				return lastTriedValue;
 			} else {
 				lastTriedValue = x.toInt();
